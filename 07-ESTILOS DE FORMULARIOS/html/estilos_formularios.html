@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Formularios</title>
+    <link rel="stylesheet" href="../css/estilos_formularios.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Suscríbete a Dribbble</h3>
+        <div class="buttons">
+            <button class="google-btn">
+                <picture>
+                    <img src="../img/google.png" alt="google" />
+                </picture>
+                <span>Acceder con Google</span>
+            </button>
+            <button class="twitter-btn">
+                <picture>
+                    <img src="../img/twitter.png" alt="twitter">
+                </picture>
+            </button>
+        </div>
+        <div class="separator">
+            <hr>
+            <span>Or</span>
+            <hr>
+        </div>
+        <form action="" method="">
+            <div class="input-container">
+                <fieldset>
+                    <label for="name">
+                        <span>Nombre</span>
+                        <input type="text" name="name" id="name" />
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="username">
+                        <span>Nombre de usuario</span>
+                        <input type="text" name="username" id="username" />
+                    </label>
+                </fieldset>
+            </div>
+            <fieldset>
+                <label for="email">
+                    <span>Email</span>
+                    <input type="email" name="email" id="email" />
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="password">
+                    <span>Contraseña</span>
+                    <input type="password" name="password" id="password" placeholder="6+ caracteres" />
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="conditions" class="conditions">
+                    <input type="checkbox" name="conditions" id="conditions" />
+                    <span>Crear una cuenta significa que está de acuerdo con nuestros <span>Términos de servicio</span>, <span>Política de privacidad</span> y nuestra <span>Configuración de notificación</span> predeterminada.</span>
+                </label>
+            </fieldset>
+            <button type="submit">Crear cuenta</button>
+        </form>
+    </div>
+</body>
+</html>

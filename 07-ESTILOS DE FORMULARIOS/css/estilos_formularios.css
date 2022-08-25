@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #161717;
+}
+
+button {
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.google-btn {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #3D88EC;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+.google-btn:hover {
+    background-color: #659de7;
+}
+
+.google-btn picture {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google-btn picture img {
+    width: 70%;
+}
+
+.google-btn span {
+    padding: 0 30px;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.twitter-btn {
+    width: 40px;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+}
+.twitter-btn:hover {
+    background-color: #d8d8d8;
+}
+
+.twitter-btn picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter-btn picture img {
+    width: 50%;
+    filter: grayscale(1);
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.separator hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #646464;
+}
+
+.separator span {
+    padding: 0 15px;
+}
+
+form {
+    margin-top: 30px; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-container fieldset {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 12pt;
+    background-color: #212121;
+    transition: background-color .3s;
+}
+
+input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    background-color: #454045;
+    box-shadow: 0 0 5px #EA4C89;
+}
+
+input[type="checkbox"] {
+    accent-color: #EA4C89;
+}
+
+label.conditions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+label.conditions span>span {
+    color: #3D88EC;
+}
+
+button[type="submit"] {
+    background-color: #EA4C89;
+    font-size: 12pt;
+    font-weight: 500;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
