@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.lateral {
+    background-color: burlywood;
+    padding: 2rem;
+}
+
+.elemento {
+    background-color: antiquewhite;
+    padding: .5rem;
+}
+
+.principal {
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    .contenedor {
+        flex-direction: column-reverse;
+    }
+
+    .lateral {
+        display: flex;
+    }
+}
